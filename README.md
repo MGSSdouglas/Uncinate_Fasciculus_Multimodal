@@ -1,4 +1,4 @@
-# Uncinate fasciculus Single-nucleus RNA sequencing (snRNA-seq) bioinformatics pipeline
+# Uncinate Fasciculus Single-Nucleus RNA Sequencing (snRNA-seq) Bioinformatics Pipeline
 
 Associated with publication: A multimodal characterization of the human uncinate fasciculus
 
