@@ -4,9 +4,12 @@ Associated with publication: A multimodal characterization of the human uncinate
 
 Kelly Perlman, Sarah-Barnett Burns, John Kim, Valérie Pineau Noël, Armand Collin, Justine Major, Malosree Maitra, Anjali Chawla, Murielle Mardenli, Sébastien Jerczynski, Maria Antonietta Davoli, Gabriella Frosi, Julien Cohen-Adad, Daniel Côté, Richard Bazinet, Gustavo Turecki, Corina Nagy, Naguib Mechawar
 
-An overview of the workflow can be found below:
+<img width="730" height="228" alt="image" src="https://github.com/user-attachments/assets/d218c67c-10b1-4a62-ac22-d86df24cbc4b" />
 
-Note: steps 1-7 run for each library 
+** On this page, we show an overview of the workflow. The script numbers correspond to the numbered steps in this overview. **
+
+## Preprocessing (includes cellranger, ambient RNA correction, demultiplexing, dedoubletting, and object creation)
+### Note: run steps 1-7 for each library 
 
 1 - cellranger
 
@@ -25,7 +28,10 @@ https://demultiplexing-doublet-detecting-docs.readthedocs.io/en/latest/scDblFind
 7 - combine demuxafy results
 https://demultiplexing-doublet-detecting-docs.readthedocs.io/en/latest/CombineResults.html
 
-8 - assign cells, make seurat objects and merge seurat  objects
+8 - assign cells, make seurat objects and merge seurat objects
+
+
+## Normalization, integration, clustering, and annotation
 
 9 - normalize with scTransform
 
@@ -42,6 +48,9 @@ https://demultiplexing-doublet-detecting-docs.readthedocs.io/en/latest/CombineRe
 14 - meta neighbour analyses and scclusteval 
 
 15 - cluster stability analysis adjusted rand index
+
+
+## Differential gene expression, plotting, and downstream analysis
 
 16 - QC pseudobulk (PCA)
 
@@ -67,11 +76,16 @@ https://demultiplexing-doublet-detecting-docs.readthedocs.io/en/latest/CombineRe
 
 22c - Age animal-human overlap analysis (with data from Ximerakis et al., 2019, Nat Neuro)
 
+
+## Pseudotime trajectory
+
 23 - OL-lineage cells only scTransform
 
 24 - OL-lineage cells only harmony
 
 25 - slingshot pseudotime analysis
+
+## Weighted Gene Co-expression Network Analysis
 
 26 - WGCNA on OL cluster
 
