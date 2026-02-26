@@ -6,7 +6,7 @@ Kelly Perlman, Sarah-Barnett Burns, John Kim, Valérie Pineau Noël, Armand Coll
 
 <img width="730" height="228" alt="image" src="https://github.com/user-attachments/assets/d218c67c-10b1-4a62-ac22-d86df24cbc4b" />
 
-** On this page, we show an overview of the workflow. The script numbers correspond to the numbered steps in this overview. **
+**On this page, we show an overview of the workflow. The script numbers correspond to the numbered steps in this overview.**
 
 ## Preprocessing (includes cellranger, ambient RNA correction, demultiplexing, dedoubletting, and object creation)
 ### Note: run steps 1-7 for each library 
