@@ -38,6 +38,7 @@ https://demultiplexing-doublet-detecting-docs.readthedocs.io/en/latest/CombineRe
 13 - add subject info/coviates. convert to other subject formats
 
 (Do map my cells online: https://knowledge.brain-map.org/mapmycells/process/)
+
 14 - meta neighbour analyses and scclusteval 
 
 15 - cluster stability analysis adjusted rand index
