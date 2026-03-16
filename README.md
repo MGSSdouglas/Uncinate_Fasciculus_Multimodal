@@ -9,7 +9,7 @@ Kelly Perlman, Sarah-Barnett Burns, John Kim, Valérie Pineau Noël, Armand Coll
 **On this page, we show an overview of the workflow. The script numbers correspond to the numbered steps in this overview.**
 
 ## Preprocessing (includes cellranger, ambient RNA correction, demultiplexing, dedoubletting, and object creation)
-### Note: run steps 1-7 for each library 
+### Note:  steps 1-7 run for each library (i.e., before merging) 
 
 1 - cellranger
 
